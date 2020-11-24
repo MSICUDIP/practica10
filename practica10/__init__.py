@@ -4,7 +4,10 @@ from procedimientos import *
 import os
 import sys
 
-import cv2
+try:
+    import cv2
+except:
+    pass
 
 def main():
 
